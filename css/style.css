@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #02f802;
+
+}
+
+header .barra1 {
+    font-weight: bold;
+    padding-left: 20px;
+    background-color: #000;
+    color: #02f802;
+}
+
+header .barra2 {
+    background-color: #32b8da;
+    height: 100px;
+}
+
+.logo {
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    border-image-repeat: repeat;
+}
+
+header ul {
+    list-style: none;
+
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #02f802;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #292929;
+    border-radius: 20px;
+    color: #00e1ff
+}
+
+
+main {
+    padding: 100px 0 0 50px;
+}
+
+
+h1 {
+    padding: 20px;
+    align-items: center;
+}
+.cards {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+
+main .card {
+width: 260px;
+height: 500px;
+border-radius: 25px;
+color: #000;
+background-color: #000;
+border: 3px solid #00e1ff;  
+/* display: inline-block;  */
+}
+
+.bgperson {
+    width: 260px;
+    height: 200px;
+    border-radius: 16px 16px 0px 0px;
+    position: absolute;
+}
+
+.img-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    margin: 150px;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+.sobre {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.sobre a {
+    color: #fff;
+    background-color: rgb(60, 252, 2);
+    padding: 10px;
+    margin: 10px;
+}
+
+.nome{
+    color: #fff;
+
+}
+
+.text-person {
+    color: #fff;
+}
+
+.sobre a:visited {
+    color: #fff;
+    text-decoration-style: none;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+
+.box {
+    background-color: #000;
+    margin-top: 100px;
+    width: 850px;
+    height: 550px;
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* label {
+    display: block;
+} */
+
+.item-formulario {
+    margin: 30px 5px 30px 5px;
+}
+
+input, select {
+    background-color: #ceeff0;
+    border: solid 1px #00e1ff;
+/*     outline: 0; */
+    border-radius: 18px;
+    padding: 8px;
+}
+
+
+input:hover {
+    background-color: #1eff00;
+}
+
+
+
+
+
+footer {
+    border-top: solid 2px #000;
+    background-color: #fff;
+    height: 30px;
+}
+
+
+#adcfoto {
+    width: 280px;
+
+}

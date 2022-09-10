@@ -84,10 +84,7 @@ h1 {
 .card {
     display: flex;
     flex-wrap: wrap;
-    align-content: stretch;
-}
-
-main .card {
+    align-content: space-between;
     width: 260px;
     height: 500px;
     border-radius: 16px;
@@ -96,19 +93,20 @@ main .card {
     border: 3px solid #00fdfd;
 }
 
+
 .bgperson {
     width: 254px;
-    height: 200px;
+    height: 190px;
     border-radius: 13px 13px 0px 0px;
     position: absolute;
 }
 
 .img-perfil {
-    width: 100px;
-    height: 100px;
+    width: 95px;
+    height: 95px;
     border-radius: 50px;
     position: absolute;
-    margin: 150px;
+    margin: 140px 80px;
     align-items: center;
     justify-content: center;
     z-index: 0;
@@ -116,25 +114,34 @@ main .card {
 
 .sobre {
     display: flex;
+    height: 300px;
     flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-around;
-    padding-top: 50px;
+    margin-top: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
 
 .sobre a {
     color: #fff;
     background-color: rgb(60, 252, 2);
-    padding: 10px;
-    margin: 10px;
+    border-radius: 12px;
+    padding: 8px;
+    margin: 8px;
 }
 
 .nome {
     color: #fff;
+    padding-top: 50px;
 }
 
 .text-person {
+    padding: 5px;
     color: #fff;
+    font-size: 14px;
+    text-align: center;
+
+
 }
 
 .sobre a:visited {
@@ -191,6 +198,9 @@ form {
     height: 300px;
 }
 
+#adcfoto {
+    width: 280px;
+}
 
 input, select, textarea {
     background-color: #ceeff0;
@@ -240,8 +250,4 @@ footer {
     border-top: solid 2px #000;
     background-color: #00fdfd;
     height: 30px;
-}
-
-#adcfoto {
-    width: 280px;
 }

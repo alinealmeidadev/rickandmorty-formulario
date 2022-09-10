@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rick And Morty</title>
+    <link rel="icon" href="./img/person03.png">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -18,15 +19,15 @@
         </div>
 
         <div class="barra2">
-            <img class="logo" src="./img/logo.png" alt="logo da loja">
+            <img class="logo" src="./img/logo.png" alt="imagem dos personagens Rick And Morty">
         </div>
 
         <nav>
             <ul>
-                <li> <a href="#contato">Contato</a> </li>
-                <li> <a href="#registre">Registre-se</a> </li>
-                <li> <a href="#login">Login</a> </li>
-                <li> <a href="adc-personagem">Adicionar personagem</a> </li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#registre">Registre-se</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#form-personagem">Adicionar personagem</a></li>
             </ul>
         </nav>
 
@@ -35,124 +36,165 @@
 
 
     <main>
-
-
         <h1>Conheça os personagens</h1>
         <div class="cards">
             <div class="card">
                 <div class="avatar">
-                    <img src="./img/bg01.jpg" alt="" class="bgperson">
+                    <img src="./img/bgcard4.jpg" alt="" class="bgperson">
                     <img class="img-perfil" src="./img/person01.png" alt="">
                 </div>
-    
+
                 <div class="sobre">
                     <p class="nome">Ricky</p>
-    
+
                     <p class="text-person">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dignissimos
-                        minima obcaecati illum dolorum provident excepturi voluptatem. Veniam quod deleniti quia nobis odit
+                        minima obcaecati illum dolorum provident excepturi voluptatem. Veniam quod deleniti quia nobis
+                        odit
                         odio, exercitationem hic quos molestiae eum vel.</p>
-    
+
                     <a href="#">Ver mais</a>
                 </div>
             </div>
             <div class="card">
                 <div class="avatar">
-                    <img src="./img/bg2.jpg" alt="" class="bgperson">
+                    <img src="./img/bgcard2.png" alt="" class="bgperson">
                     <img class="img-perfil" src="./img/person02.png" alt="">
                 </div>
-    
+
                 <div class="sobre">
-                    <p class="nome">Ricky</p>
-    
+                    <p class="nome">Cristophildo</p>
+
                     <p class="text-person">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dignissimos
-                        minima obcaecati illum dolorum provident excepturi voluptatem. Veniam quod deleniti quia nobis odit
+                        minima obcaecati illum dolorum provident excepturi voluptatem. Veniam quod deleniti quia nobis
+                        odit
                         odio, exercitationem hic quos molestiae eum vel.</p>
-    
+
                     <a href="#">Ver mais</a>
                 </div>
             </div>
             <div class="card">
                 <div class="avatar">
-                    <img src="./img/bg03.jpg" alt="" class="bgperson">
+                    <img src="./img/bgcard6.png" alt="" class="bgperson">
                     <img class="img-perfil" src="./img/person03gato.png" alt="">
                 </div>
-    
+
                 <div class="sobre">
                     <p class="nome">Ricky</p>
-    
+
                     <p class="text-person">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dignissimos
-                        minima obcaecati illum dolorum provident excepturi voluptatem. Veniam quod deleniti quia nobis odit
+                        minima obcaecati illum dolorum provident excepturi voluptatem. Veniam quod deleniti quia nobis
+                        odit
                         odio, exercitationem hic quos molestiae eum vel.</p>
-    
+
                     <a href="#">Ver mais</a>
                 </div>
             </div>
-    
+
         </div>
 
     </main>
 
 
-    <section>
+    <section id="form-personagem">
         <div class="box">
-            <h1>Adicionar seu super heroi</h1>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <h2>Adicionar seu super heroi</h2>
+            <h3>Lorem ipsum dolor sit amet.</h3>
 
             <form action="#">
 
-                <div class="item-formulario">
-                    <label for="nome-usuario">*Nome</label>
-                    <input type="text" id="nome-usuario">
+                <div class="linha">
 
+                    <div class="topico">
 
-                    <label for="escolha">Escolha seu personagem</label>
-                    <select name="escolha" id="Escolha">
-                        <option name="escolha" value="selecione"></option>
-                        <option name="escolha" value="rick">Rick Sanchez</option>
-                        <option name="escolha" value="morty">Morty Smith</option>
-                        <option name="escolha" value="summer">Summer Smith</option>
-                    </select>
+                        <label for="nome-usuario">*Nome</label>
 
-                </div>
+                        <input type="text" id="nome-usuario">
+                    </div>
 
-                <div class="item-formulario">
+                    <div class="topico">
+                        <label for="escolha">Escolha seu personagem</label>
 
-                    <label for="nascimento">Data de Nascimento</label>
-                    <input type="date" name="nascimento" id="nascimento">
+                        <select name="escolha" id="Escolha">
+                            <option name="escolha" value="selecione"></option>
+                            <option name="escolha" value="rick">Rick Sanchez</option>
+                            <option name="escolha" value="morty">Morty Smith</option>
+                            <option name="escolha" value="summer">Summer Smith</option>
+                        </select>
 
-                    <label for="adcfoto">Adicionar Foto</label>
-                    <input type="file" name="adcfoto" id="adcfoto">
+                    </div>
 
                 </div>
 
+                <div class="linha">
 
-                <div>
+                    <div class="topico">
 
-                    <label for="descricao">Descrição do perfil</label>
-                    <textarea name="descrição" id="descricao" cols="30" rows="10"></textarea>
+                        <label for="nascimento">Data de Nascimento</label>
 
-                    <label for="poderes">Escolha seus poderes</label>
-                    <input type="checkbox" name="poderes" id="poderes"> <label for="dimensoes">Atravessar
-                        Dimensões</label>
-                    <input type="checkbox" name="poderes" id="poderes"> <label for="super-inteligencia">Super
-                        Inteligência</label>
-                    <input type="checkbox" name="poderes" id="poderes"> <label for="velocidade-e-forca">Velocidade e
-                        Força</label>
+                        <input type="date" name="nascimento" id="nascimento">
 
-                    <label for="cor-do-card">*Tema do Card</label>
-                    <input type="radio" id="escolha" value="dark"><label for="dark">Dark</label>
-                    <input type="radio" id="escolha" value="light"><label for="light">Light</label>
+                    </div>
 
+                    <div class="topico">
+
+                        <label for="adcfoto">Adicionar Foto</label>
+
+                        <input type="file" name="adcfoto" id="adcfoto">
+                    </div>
                 </div>
 
-                <input type="submit" value="Adicionar">
+
+                <div class="linha">
+
+                    <div class="topico">
+
+                        <label for="descricao">Descrição do perfil</label>
+
+                        <textarea name="descrição" id="descricao" cols="15" rows="12"></textarea>
+
+                    </div>
+
+
+                    <div class="topico">
+
+                        <div class="item item01">
+                            <label class="tema" for="poderes">Escolha seus poderes</label>
+                            <br>
+
+                            <input type="checkbox" name="poderes" id="poderes">
+                            <label for="dimensoes">Atravessar Dimensões</label>
+                            <br>
+                            <input type="checkbox" name="poderes" id="poderes">
+                            <label for="super-inteligencia">Super
+                                Inteligência</label>
+                            <br>
+                            <input type="checkbox" name="poderes" id="poderes"> <label
+                                for="velocidade-e-forca">Velocidade e
+                                Força</label>
+                        </div>
+
+                        <div class="item item02">
+                            <label class="tema" for="cor-do-card">*Tema do Card</label>
+                            <br>
+                            <input type="radio" id="escolha" value="dark"><label for="dark">Dark</label>
+                            <br>
+                            <input type="radio" id="escolha" value="light"><label for="light">Light</label>
+                        </div>
+                    </div>
+                </div>
+                    <div class="topico-bottom">
+                        <div class="envia">
+                            <input type="submit" value="Adicionar">
+                        </div>
+                    </div>
+                </div>
             </form>
         </div>
+    </section>
 
-
-        <footer>
-<!--             Front-end I -->
-        </footer>
+    <footer>
+        <p>Front-end I</p>
+    </footer>
 
 </body>
 

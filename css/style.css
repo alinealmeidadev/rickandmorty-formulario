@@ -95,15 +95,15 @@ h1 {
 
 
 .bgperson {
-    width: 254px;
-    height: 190px;
+    width: 100%;
+    height: 100%;
     border-radius: 13px 13px 0px 0px;
     position: absolute;
 }
 
 .img-perfil {
-    width: 95px;
-    height: 95px;
+    width: 95%;
+    height: 95%;
     border-radius: 50px;
     position: absolute;
     margin: 140px 80px;
